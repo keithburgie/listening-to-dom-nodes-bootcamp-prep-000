@@ -16,5 +16,6 @@ main.addEventListener('click', () => {
 const input = document.querySelector('input');
 
 input.addEventListener('keydown', function(e) {
+  e.preventDefault();
   console.log(e.key);
 });
