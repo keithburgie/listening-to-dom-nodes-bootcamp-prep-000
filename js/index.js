@@ -7,6 +7,8 @@ main.addEventListener('click', function(event) {
   alert('I was clicked!');
 });
 
+/*
 main.addEventListener('click', () => {
   alert('I was clicked!');
 });
+*/
