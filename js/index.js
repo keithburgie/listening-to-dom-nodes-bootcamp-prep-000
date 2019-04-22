@@ -3,7 +3,10 @@
 
 const main = document.getElementById('main');
 
-main.addEventListener('click', () => {
+main.addEventListener('click', function(event) {
   alert('I was clicked!');
 });
 
+main.addEventListener('click', () => {
+  alert('I was clicked!');
+});
